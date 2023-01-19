@@ -143,8 +143,8 @@ main section {
 }
 
 .p-despre {
-    border: 2px lightgray solid;
-    padding: 12px;
+    /* border: 2px lightgray solid;
+    padding: 12px; */
     border-radius: 5px;
     background-color: #efefef;
 }
@@ -347,7 +347,7 @@ footer {
 
 .container-noutati {
     /* width: 100%; daca nu aveti pagina pe FB */
-    width: calc(100% - 310px);
+    width: calc(100% - 1px);
     float: left;
 }
 
@@ -384,8 +384,9 @@ footer {
 }
 
 .noutate img {
-    width: 25%;
+    width: 32%;
     float: left;
+    margin-left: 3px;
     margin-right: 12px;
     border-radius: 3px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
